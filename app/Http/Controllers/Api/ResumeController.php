@@ -32,7 +32,7 @@ class ResumeController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'name' => 'required',
+            'nama_krj' => 'required',
             'waktu' => 'required',
             'detail' => 'required',
         ]);
